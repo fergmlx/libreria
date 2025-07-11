@@ -12,6 +12,7 @@ import javax.swing.JLabel;
 /**
  *
  * @author Fer
+ * @author Jonathan
  */
 public class Prueba extends javax.swing.JFrame {
 
@@ -20,7 +21,7 @@ public class Prueba extends javax.swing.JFrame {
      */
     public Prueba() {
         initComponents();
-        prueba6();
+        prueba1();
     }
     
     private void prueba1() {
