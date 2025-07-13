@@ -252,15 +252,14 @@ FormatoLatex.renderizarFormula("\\invalid{formula", 18f, ruta); // ❌ Sintaxis 
 Un par de recursos sobre LaTeX:
 > 📄 **[Manual de LaTeX](https://manualdelatex.com/tutoriales/ecuaciones)**
 
-> 📗 **[Introducción a LaTeX](https://www.ugr.es/~mmartins/material/latex_basico.pdf)** (Recomendable ver sección *Comandos y entornos*)
+> 📗 **[Introducción a LaTeX](https://www.ugr.es/~mmartins/material/latex_basico.pdf)** (Recomendable ver subsección *Comandos y entornos* dentro de la sección 4 *Primeros pasos*)
 
 ## 🎥 Video explicativo
 
 [![Ver demostración en YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/PtQnJSb-3n0?si=8PbGDUQEFc0F-8jH)
 
 ## 👥 Créditos
-
-- [JLaTeXMath](https://github.com/opencollab/jlatexmath) por la base de renderizado LaTeX
+## Equipo 3
 <div align="center">
   <table>
     <tr>
@@ -268,7 +267,7 @@ Un par de recursos sobre LaTeX:
         <a href="https://github.com/fergmlx">
           <img src="https://github.com/fergmlx.png" width="100px;" alt=""/>
           <br />
-          <sub><b>Luis Fernando González Miguel</b></sub>
+          <sub><b>González Miguel Luis Fernando</b></sub>
         </a>
         <br />
         <sub>Miembro del equipo</sub>
@@ -278,7 +277,7 @@ Un par de recursos sobre LaTeX:
         <a href="https://github.com/JonathanRene">
           <img src="https://github.com/JonathanRene.png" width="100px;" alt=""/>
           <br />
-          <sub><b>Jonathan Rene Cruz Gutiérrez</b></sub>
+          <sub><b>Cruz Gutiérrez Jonathan Rene</b></sub>
         </a>
         <br />
         <sub>Miembro del equipo</sub>
@@ -286,3 +285,7 @@ Un par de recursos sobre LaTeX:
     </tr>
   </table>
 </div>
+
+--
+
+- [JLaTeXMath](https://github.com/opencollab/jlatexmath) por la base de renderizado LaTeX
