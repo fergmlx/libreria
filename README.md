@@ -18,7 +18,7 @@ Una librería Java elegante y poderosa para renderizar fórmulas matemáticas La
 
 ## 🌟 Descripción
 
-**FormatoLatex** es una librería de utilidad especializada que permite integrar fórmulas matemáticas LaTeX de manera sencilla y elegante en aplicaciones Java Swing. Construida sobre la base de JLaTeXMath, esta librería ofrece una API intuitiva para:
+**FormatoLatex** es una librería de utilidad que permite integrar fórmulas matemáticas LaTeX de manera sencilla en aplicaciones Java Swing. Construida sobre la base de JLaTeXMath, esta librería ofrece una API intuitiva para:
 
 - ✨ Renderizar fórmulas matemáticas complejas en componentes Swing
 - 🖼️ Exportar fórmulas como imágenes PNG de alta calidad
@@ -31,36 +31,16 @@ Esta librería surge de la necesidad de tener métodos que faciliten la visualiz
 ## 🚀 Instalación
 
 ### Requisitos
-- Java 8 o superior
-- [JLaTeXMath](https://github.com/opencollab/jlatexmath) library
+- Librería [JLaTeXMath](https://github.com/opencollab/jlatexmath). Enlace al [JAR](https://mvnrepository.com/artifact/org.scilab.forge/jlatexmath/1.0.7)
 
-### Método 1: Importar JAR en tu proyecto
+### Importar JAR en tu proyecto
 
-1. **Descarga el archivo JAR** desde la sección de releases
-2. **Agrega el JAR a tu proyecto:**
-
-#### Para IntelliJ IDEA:
-```
-File → Project Structure → Modules → Dependencies → + → JARs or directories
-```
-
-#### Para Eclipse:
-```
-Right-click project → Properties → Java Build Path → Libraries → Add JARs
-```
+1. **Descarga archivo JAR (tanto el de formatolatex como el JLatexMath**
+2. **Agrega ambos JAR a tu proyecto:**
 
 #### Para NetBeans:
 ```
-Right-click project → Properties → Libraries → Add JAR/Folder
-```
-
-### Método 2: Usando Maven (próximamente)
-```xml
-<dependency>
-    <groupId>com.formatolatex</groupId>
-    <artifactId>formato-latex</artifactId>
-    <version>1.0.0</version>
-</dependency>
+Click derecho en el proyecto → Properties → Libraries → Modulepath → Add JAR/Folder
 ```
 
 ## 📚 Documentación
@@ -75,6 +55,10 @@ public final class FormatoLatex {
     // Sin necesidad de instanciar la clase
 }
 ```
+
+### Javadoc
+
+> 📄 **[Documentación Javadoc](https://fergmlx.github.io/libreria-formato-latex)**
 
 ### 🔧 Métodos Principales
 
@@ -256,19 +240,6 @@ public class EjemploColores {
 
 ## 🛠️ Mejores Prácticas
 
-### ✅ Recomendaciones
-```java
-// Usar tamaños de texto apropiados
-FormatoLatex.renderizarFormula(formula, 18f, ruta);  // ✅ Óptimo para pantalla
-FormatoLatex.renderizarFormula(formula, 24f, ruta);  // ✅ Óptimo para impresión
-
-// Validar rutas antes de renderizar
-File directorio = new File("output");
-if (!directorio.exists()) {
-    directorio.mkdirs();
-}
-```
-
 ### ❌ Evitar
 ```java
 // Tamaños muy pequeños o muy grandes
@@ -279,47 +250,40 @@ FormatoLatex.renderizarFormula(formula, 100f, ruta); // ❌ Muy grande
 FormatoLatex.renderizarFormula("\\invalid{formula", 18f, ruta); // ❌ Sintaxis incorrecta
 ```
 
-## 🎥 Demo
+Un par de recursos sobre LaTeX:
+> 📄 **[Manual de LaTeX](https://manualdelatex.com/tutoriales/ecuaciones)**
 
-> 📹 **[Ver video demostrativo en YouTube](https://youtube.com/watch?v=YOUR_VIDEO_ID)**
+> 📗 **[Introducción a LaTeX](https://www.ugr.es/~mmartins/material/latex_basico.pdf)** (Recomendable ver sección *Comandos y entornos*)
 
-El video incluye:
-- Instalación paso a paso
-- Ejemplos de uso en tiempo real
-- Integración con diferentes IDEs
-- Casos de uso avanzados
+## 🎥 Video explicativo
 
-## 🤝 Contribución
+[![Ver demostración en YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/PtQnJSb-3n0?si=8PbGDUQEFc0F-8jH)
 
-¡Las contribuciones son bienvenidas! Si deseas mejorar la librería:
-
-1. Fork el repositorio
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## 📝 Licencia
-
-Distribuido bajo la licencia MIT. Ver `LICENSE` para más información.
-
-## 👥 Autores
-
-- **Fer** - *Desarrollador Principal* - [@fergmlx](https://github.com/fergmlx)
-- **Jonathan** - *Colaborador* - Documentación y testing
-
-## 🙏 Agradecimientos
+## 👥 Créditos
 
 - [JLaTeXMath](https://github.com/opencollab/jlatexmath) por la base de renderizado LaTeX
-- Comunidad Java por el feedback y sugerencias
-- Contribuidores del proyecto
-
----
-
 <div align="center">
-
-**¿Te gusta FormatoLatex? ¡Dale una ⭐ al repositorio!**
-
-[🐛 Reportar Bug](../../issues) • [💡 Solicitar Feature](../../issues) • [📧 Contacto](mailto:your-email@example.com)
-
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/fergmlx">
+          <img src="https://github.com/fergmlx.png" width="100px;" alt=""/>
+          <br />
+          <sub><b>Luis Fernando González Miguel</b></sub>
+        </a>
+        <br />
+        <sub>Miembro del equipo</sub>
+      </td>
+      <!-- Añade más miembros del equipo aquí siguiendo el mismo formato -->
+      <td align="center">
+        <a href="https://github.com/JonathanRene">
+          <img src="https://github.com/JonathanRene.png" width="100px;" alt=""/>
+          <br />
+          <sub><b>Jonathan Rene Cruz Gutiérrez</b></sub>
+        </a>
+        <br />
+        <sub>Miembro del equipo</sub>
+      </td>
+    </tr>
+  </table>
 </div>
