@@ -6,7 +6,6 @@
 ![Swing](https://img.shields.io/badge/Swing-007396?style=for-the-badge&logo=java&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
 ![Version](https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 Una librería Java elegante y poderosa para renderizar fórmulas matemáticas LaTeX en aplicaciones Swing
 
